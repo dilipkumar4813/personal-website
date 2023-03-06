@@ -1,0 +1,164 @@
+/*
+Theme Name: Darcie Light
+Description: Used to style the TinyMCE editor.
+*/
+
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+/* Background Color */
+body,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select {
+    background-color: #ffffff;
+}
+
+/* Secondary Background Color */
+
+mark,
+ins,
+pre {
+    background-color: #f2f2f2;
+}
+
+/* Main Text Color */
+body,
+input,
+select,
+optgroup,
+textarea,
+pre.wp-block-verse {
+    color: #666666;
+}
+
+/* Heading Text Color */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+.drop-cap:first-letter,
+thead th {
+    color: #000000;
+}
+
+/* Link Color */
+a {
+    color: #000000;
+}
+
+/* Link Hover Color */
+a:hover,
+a:focus,
+.more-link .readmore:hover,
+.more-link .readmore:focus,
+.wp-block-quote:before {
+    color: #ff2906;
+}
+
+
+/* Gradient Button Background Color */
+.button,
+input[type="submit"],
+.view-more .button {
+    background-image: linear-gradient(to right, #ff2906, #ff5b02);
+}
+
+button[type="submit"].search-submit.search-focused {
+    background-color: #ff2906;
+}
+
+/* Button Text Color */
+.button,
+.scrollup a:before,
+input[type="submit"],
+button[type="submit"],
+.view-more .button {
+    color: #ffffff;
+}
+
+/* Button Hover Text Color */
+.button:hover,
+.button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+button[type="submit"]:hover,
+button[type="submit"]:focus,
+.view-more .button:hover,
+.view-more .button:focus {
+    color: #ffffff;
+}
+
+/* Button Hover Background Color */
+.button:hover,
+.button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.view-more .button:hover,
+.view-more .button:focus {
+    background-image: linear-gradient(to right, #ff5b02, #ff2906);
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+    background-color: #ff2906;
+}
+
+/* Border Color */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select tfoot,
+.mce-item-table tfoot,
+tfoot tr td,
+.mce-item-table tfoot tr td,
+table,
+.mce-item-table,
+table thead tr,
+.mce-item-table thead tr,
+table thead th,
+.mce-item-table thead th,
+thead th,
+.mce-item-table thead th,
+tbody th,
+.mce-item-table tbody th,
+tbody td,
+.mce-item-table tbody td,
+tbody tr,
+.mce-item-table tbody tr,
+select,
+abbr,
+acronym {
+    border-color: #dfdfdf;
+}
